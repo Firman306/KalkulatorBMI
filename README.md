@@ -76,10 +76,10 @@ public class KalkulatorBMI {
 ## 🔍 Hasil Uji Coba
 
 ### 💡 Input
-![Input Dialog](Sc(01).jpg)
+![Input Dialog](Sc(01).png)
 
 ### 📊 Output
-![Output Dialog](Sc(02).jpg)
+![Output Dialog](Sc(02).png)
 
 ---
 
