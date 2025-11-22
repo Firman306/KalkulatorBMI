@@ -1,4 +1,4 @@
-# 🌡️ Program Konversi Suhu (Celsius → Fahrenheit & Kelvin)
+# 🌡️ Program Kalkulator BMI (Celsius → Fahrenheit & Kelvin)
 
 ## 👤 Identitas
 - **Nama:** Firman Maulana 
@@ -8,11 +8,13 @@
 ---
 
 ## 🧠 Deskripsi
-Program ini mengonversi suhu dari **Celsius** ke **Fahrenheit** dan **Kelvin** menggunakan **JOptionPane** untuk input dan output.  
+Program ini dibuat untuk menghitung BMI menggunakan **JOptionPane** untuk input dan output.  
 Langkah program:
-1. Pengguna memasukkan suhu dalam °C  
-2. Program menghitung konversi  
-3. Hasil ditampilkan dalam kotak dialog  
+1. Pengguna memasukkan berat badan(Kg)
+2. Pengguna memasukkan Tinggi Badan(Cm)
+3. Konversi tinggi badan Centimeter menjadi Meter
+4. Program menghitung Nilai BMI dengan Rumus = Berat Badan(Kg) / (Tinggi badan(M)²)
+5. Hasil ditampilkan dalam kotak dialog
 
 ---
 
@@ -66,13 +68,18 @@ public class KalkulatorBMI {
 
 ---
 
+## Flowchart
+![input Dialog](Flowchart.pdf)
+
+---
+
 ## 🔍 Hasil Uji Coba
 
 ### 💡 Input
-![Input Dialog](sc1.jpg)
+![Input Dialog](Sc(01).jpg)
 
 ### 📊 Output
-![Output Dialog](sc2.jpg)
+![Output Dialog](Sc(02).jpg)
 
 ---
 
