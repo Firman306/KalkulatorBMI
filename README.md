@@ -83,7 +83,7 @@ public class KalkulatorBMI {
 ---
 
 ## ✅ Kesimpulan
-Program berhasil dijalankan dan menampilkan hasil nilai dengan benar.  
-Penggunaan **JOptionPane** mempermudah interaksi dengan pengguna tanpa console.
+Program berhasil dijalankan dan menampilkan hasil nilai BMI dengan benar.  
+
 
 ---
