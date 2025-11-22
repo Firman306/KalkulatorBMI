@@ -7,6 +7,11 @@
 
 ---
 
+## Flowchart
+![input Dialog](Flowchart.png)
+
+---
+
 ## 🧠 Deskripsi
 Program ini dibuat untuk menghitung BMI menggunakan **JOptionPane** untuk input dan output.  
 Langkah program:
@@ -66,13 +71,6 @@ public class KalkulatorBMI {
 
 ```
 
----
-
-## Flowchart
-![input Dialog](Flowchart.png)
-
----
-
 ## 🔍 Hasil Uji Coba
 
 ### 💡 Input
@@ -84,7 +82,7 @@ public class KalkulatorBMI {
 ---
 
 ## ✅ Kesimpulan
-Program berhasil dijalankan dan menampilkan hasil konversi dengan benar.  
+Program berhasil dijalankan dan menampilkan hasil nilai dengan benar.  
 Penggunaan **JOptionPane** mempermudah interaksi dengan pengguna tanpa console.
 
 ---
