@@ -1,4 +1,4 @@
-# 🌡️ Program Kalkulator BMI (Celsius → Fahrenheit & Kelvin)
+# 🌡️ Program Kalkulator BMI
 
 ## 👤 Identitas
 - **Nama:** Firman Maulana 
@@ -69,7 +69,7 @@ public class KalkulatorBMI {
 ---
 
 ## Flowchart
-![input Dialog](Flowchart.pdf)
+![input Dialog](Flowchart.png)
 
 ---
 
