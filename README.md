@@ -1,3 +1,83 @@
-<img width="1366" height="768" alt="Screenshot (38)" src="https://github.com/user-attachments/assets/2c96b3b6-c45f-404b-920e-709c3f4a8332" />
-<img width="1366" height="768" alt="Screenshot (39)" src="https://github.com/user-attachments/assets/49272653-81bf-4115-b1b8-6a332cdca7a6" />
-<img width="1366" height="768" alt="Screenshot (40)" src="https://github.com/user-attachments/assets/2c1bfe62-c707-472e-9889-f7bdb02cf36e" />
+# 🌡️ Program Konversi Suhu (Celsius → Fahrenheit & Kelvin)
+
+## 👤 Identitas
+- **Nama:** Firman Maulana 
+- **NIM:** I.2510194 
+- **Mata Kuliah:** Algoritma dan Pemrograman  
+
+---
+
+## 🧠 Deskripsi
+Program ini mengonversi suhu dari **Celsius** ke **Fahrenheit** dan **Kelvin** menggunakan **JOptionPane** untuk input dan output.  
+Langkah program:
+1. Pengguna memasukkan suhu dalam °C  
+2. Program menghitung konversi  
+3. Hasil ditampilkan dalam kotak dialog  
+
+---
+
+## 💻 Cuplikan Kode
+```java
+import javax.swing.JOptionPane;
+
+public class KalkulatorBMI {
+    public static void main(String[] args) {
+        //input berat badan
+        String inputBerat = JOptionPane.showInputDialog("Masukkan berat badan Anda (kg):");
+        double beratBadan = Double.parseDouble(inputBerat);
+
+        //input tinggi badan
+        String inputTinggi = JOptionPane.showInputDialog("Masukkan tinggi badan Anda (cm):");
+        double tinggiBadan = Double.parseDouble(inputTinggi);
+
+        // Konversi tinggi ke meter
+        double tinggiMeter = tinggiBadan / 100;
+
+        //Hitung BMI
+        double nilaiBMI = beratBadan / (tinggiMeter * tinggiMeter);
+
+        // Menentukan kategori BMI
+        String kategori;
+        if (nilaiBMI < 18.5) {
+            kategori = "Kurus";
+        } else if (nilaiBMI <= 24.9) {
+            kategori = "Normal";
+        } else if (nilaiBMI <= 29.9) {
+            kategori = "Gemuk";
+        } else {
+            kategori = "Obesitas";
+        }
+
+        //Tampilan Hasil
+        String hasil = String.format(
+            "Hasil Perhitungan BMI Anda:\n\n" +
+            "Berat Badan : %.1f kg\n" +
+            "Tinggi Badan: %.1f cm\n" +
+            "Nilai BMI   : %.2f\n" +
+            "Kategori    : %s",
+            beratBadan, tinggiBadan, nilaiBMI, kategori
+        );
+
+        JOptionPane.showMessageDialog(null, hasil, "Kalkulator BMI", JOptionPane.INFORMATION_MESSAGE);
+    }
+}
+
+```
+
+---
+
+## 🔍 Hasil Uji Coba
+
+### 💡 Input
+![Input Dialog](sc1.jpg)
+
+### 📊 Output
+![Output Dialog](sc2.jpg)
+
+---
+
+## ✅ Kesimpulan
+Program berhasil dijalankan dan menampilkan hasil konversi dengan benar.  
+Penggunaan **JOptionPane** mempermudah interaksi dengan pengguna tanpa console.
+
+---
